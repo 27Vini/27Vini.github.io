@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<curriculo>
+    <nome>RaFELREIHJ CALCBVO</nome>
+    <idade>42</idade>
+    <sexo>Masculino</sexo>
+    <nacionalidade>Brasileiro</nacionalidade>
+    <estadoCivil>Casado</estadoCivil>
+    <experiencia>Google BDI, Amazon CyberSecurity</experiencia>
+    <qualidades>Alta capacidade de trabalho em grupo, liderança e inteligência emocional </qualidades>
+    <cargoPret>Engenharia de Segurança</cargoPret>
+    <formacao>Doutorado</formacao>
+
+</curriculo>
