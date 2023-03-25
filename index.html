@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
    
     <title>Consultoria James</title>
+    <link rel="stylesheet" href="aula3/folha1.css">
 </head>
 <body>
     <header>
-        <h1>Consultoria <span style="color: rgb(0, 122, 183);">James</span></h1>
-         <nav>
-           <ul>
+        <h1>Consultoria <span>James</span></h1>
+         <nav >
+           <ul class="menu">
                <li><a href="#">Página Inicial</a></li>
                <li><a href="#">Sobre</a></li>
                <li><a href="#">Serviços</a></li>
@@ -21,52 +22,57 @@
     </header>
 
     <main>
-        <section>
-            <img src="./img/surf.png" alt="Surfista" title="Surfista">
-            <h2>Serviços</h2>
-            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis modi suscipit, nam molestiae vero ad illo maxime eum quia odit, earum fugit placeat dolor obcaecati in error ullam eaque debitis?</small>
-        </section>
-
-        <section>
+        <section class="banner">
+            <img src="img/surf.png" alt="Surfista" title="Surfista">
             <article>
+                <h2>Serviços</h2>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis modi suscipit, nam molestiae vero ad illo maxime eum quia odit, earum fugit placeat dolor obcaecati in error ullam eaque debitis?</small>
+              </article>
+        
+
+        <section class="portfolio">
+            <article class="box">
                 <h3>Serviços</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, itaque! Similique qui ex fugit, dolor quisquam at voluptatibus nulla, autem officia distinctio nisi tenetur reiciendis aut quos rem fuga veniam!</p>
                 <button>Mais informações</button>
             </article>
-        </section>
+        
 
-        <section>
-            <article>
+     
+            <article class="box">
                 <h3>Projetos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellat sint obcaecati nisi ipsa recusandae alias odit ab cupiditate! Laborum expedita ratione, quod voluptas veritatis earum reiciendis doloremque alias quasi?</p>
                 <button>Mais informações</button>
             </article>
-        </section>
+     
 
-        <section>
-            <article>
+     
+            <article class="box">
                 <h3>Clientes</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas soluta omnis aliquid modi vel, blanditiis commodi corporis? Quia alias officiis eius! Ex, ipsam placeat! Et, asperiores modi! Unde, odit saepe.</p>
                 <button>Mais informações</button>
             </article>
         </section>
+    </section>
 
-        <section>
-            <article>
-                <h2></h2>
-                <img src="./img/fig1.png" alt="Predio" title="Predio">
+        <section class="fonte-preta motivacao">
+            <article class="col-2">
+                <h2>CONQUISTE O MUNDO</h2>
+                <img src="./img/fig1.png" alt="Predio" title="Predo" class="float-left">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat consequuntur consequatur libero perspiciatis eius eveniet vel dolorum eum, aut nesciunt illo? Aut aliquid ad dolore! Labore incidunt beatae saepe!</p>
             </article>
-            <article>
-                <h2></h2>
-                <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum mollitia vero incidunt qui ipsa iste quia eaque ducimus ratione non. Quis aliquid eaque rem ducimus aspernatur repudiandae sed molestiae deserunt!</blockquote>
-            </article>
+            <article class="col-1">
+                <h2>Depoimentos</h2>
+                <blockquote class="secao-secundaria">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum mollitia vero incidunt qui ipsa iste quia eaque ducimus ratione non. Quis aliquid eaque rem ducimus aspernatur repudiandae sed molestiae deserunt!</blockquote>
+                <cite>Samatha Jones, Gerente de Projetos</cite>
+                    
+                </article>
             
         </section>
 
-        <footer>
-            <nav></nav>
-        <ul>
+        <footer class="secao-secundaria">
+            <nav>
+        <ul class="menu ">
             <li><a href="#">Página Inicial</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Serviços</a></li>
@@ -74,6 +80,7 @@
             <li><a href="#">Clientes</a></li>
             <li><a href="#">Contato</a></li>
         </ul>
+    </nav>
         </footer>
     </main>
     <footer>
@@ -81,7 +88,7 @@
             <p>&copy;2023 Consultoria James - Desenvolvido por CEFET-RJ</p>
         </div>
         <div>
-           <ul>
+           <ul class="menu">
                <li><a href=""><i>Twitter</i></a></li>
                <li><a href=""><i>Facebook</i></a></li>
                <li><a href=""><i>Instagram</i></a></li>
