@@ -4,21 +4,26 @@
 }
 
 body{
-    background-color: grey;
+    background-color: white;
     margin: 0;
     color: white;
 }
 
 header{
-    background-color: brown;
-    margin:0 auto;
-    width: 900px;
+    background-color: rgba(38,19,0,255);
+    padding:90px ;
+}
+
+header div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 65px;
 }
 
 main{
     background-color: white;
-    width: 900px;
-    margin: 0 auto;
     padding: 0px;
 }
 
@@ -26,7 +31,8 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 500px;
+    align-items: center;
+    width: 700px;
     padding-left: 0;
     list-style: none;
     margin:0 auto;
@@ -34,12 +40,22 @@ main{
 }
 
 .navegador a{
-    margin-right: 10px;
+    margin-right: 40px;
     color: white;
     text-decoration: none;
+    align-items: center;
+    transition: 0.2s;
+
 }
 .navegador a:hover{
-    background-color: red;
+    background-color: rgba(191,30,75,255);
+    padding: 15px;
+    transition: 0.2s;
+}
+
+
+h1{
+    margin: 0;
 }
 
 h2{
@@ -52,10 +68,17 @@ h2{
 
 
 .apresentacao{
-    background-color: orange;
+    background-color: rgba(220,87,46,255);
+    padding: 90px;
+    color: black;
 }
+
+
 .apresentacao h2{
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .portfolio{
@@ -69,13 +92,72 @@ h2{
 .box{
     width: 300px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box p{
+    margin:0;
+    font-size: small;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.box button{
+    background-color: rgba(191,30,75,255);
+    border-width: 0;
+    color:white;
+    padding: 13px 25px;
+    transition:0.2s;
+    margin-bottom: 50px;
+}
+
+.box button:hover{
+    background-color: black;
+    color: white;
+    transition:0.2s;
+    cursor: pointer;
 }
 
 
+
+
 .box2{
-    width: 100px;
-    margin: 10px;
+    width: 150px;
+    margin: 5px;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 h4{
+    font-size:13px;
+}
+
+.box2 p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.box2 button{
+    background-color: rgba(191,30,75,255);
+    border-width: 0;
+    color:white;
+    padding: 13px 25px;
+    transition:0.2s;
+    margin-bottom: 50px;
+}
+
+
+.box2 button:hover{
+    background-color: black;
+    color: white;
+    transition:0.2s;
+    cursor: pointer;
 }
 
 .cor-preta{
@@ -84,7 +166,43 @@ h2{
 }
 
 .centralizacao{
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+header,main,footer{
+    width: 900px;
+    margin:0 auto;
+}
+
+footer{
+    color: grey;
+    background-color: rgba(38,19,0,255);
+    padding:90px;
+    text-align: center;
+}
+
+footer p{
+    margin-bottom: 45px;
+}
+
+
+.tumblr{
+    width: 20px;
+}
+
+.linhadourada{
+    color: rgb(33, 24, 0);
+    width: 800px;
+    margin-left: -45px;
+    margin-top: 90px;
+}
+
+
+
+span{
+    color: grey;
 }
