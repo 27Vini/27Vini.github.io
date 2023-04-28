@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Listas</title>
+</head>
+<style>
+    .principal{
+        list-style-type: circle;
+    }
+
+    .secundaria{
+        list-style-type: disc;
+    }
+
+    .letraMaiuscula{
+        list-style-type: upper-latin;
+    }
+
+    .numero{
+        list-style-type: decimal;
+    }
+
+    .romano{
+        list-style-type: lower-roman;
+    }
+</style>
+<body>
+    <h1>Listas</h1>
+    <hr>
+    <h2>Listas Nao Numeradas</h2>
+    <ul class="principal">
+        <li>Faculdade de Engehnharia
+            <ul class="secundaria">
+                <li>Departamentos
+                    <ul class="secundaria">
+                        <li>DEQ</li>
+                        <li>DEC</li>
+                        <li>DECC</li>
+                        <li>...</li>
+                    </ul>
+                </li>
+                <li>Servicos
+                    <ul class="secundaria">
+                        <li>CICA</li>
+                        <li>Biblioteca</li>
+                        <li>...</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Faculdade de Medicina</li>
+    </ul>
+    <hr>
+    <h2>Listas Numeradas</h2>
+    <ol class="letraMaiuscula">
+        <li>Escola da Luz
+            <ol class="numero">
+                <li>Ano 
+                    <ol class="romano">
+                        <li>Turma A</li>
+                        <li>Turma B</li>
+                    </ol>
+                </li>
+                <li>Ano 
+                    <ol class="romano">
+                        <li>Turma B</li>
+                        <li>Turma C</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Escola da Paz
+            <ol class="numero">
+                <li>Ano 
+                    <ol class="romano">
+                        <li>Turma D</li>
+                        <li>Turma E</li>
+                    </ol>
+                </li>
+                <li>Ano 
+                    <ol class="romano">
+                        <li>Turma F</li>
+                        <li>Turma G</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+</body>
+</html>

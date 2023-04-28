@@ -121,7 +121,7 @@
         }
 
 
-        .menu a:hover{
+        .menu li:hover{
             font-weight: bold;
         }
 

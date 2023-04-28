@@ -10,6 +10,7 @@ header{
 body{
     margin: 0 auto;
     width: 1000px;
+    font-family: sans-serif;
     
 }
 main{
@@ -130,9 +131,81 @@ h1,h2,h3{
 
 
 .segundaparte{
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-right: 50px;
+    background-color: #ededed;
+    padding: 50px;
+    
+}
+
+
+
+.atrativos{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+}
+
+.atrativos h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.atrativos p {
+    font-size: small;
+}
+
+.atrativos button{
+    margin-top: 10px;
+    background-color: orangered;
+    color: white;
+    padding: 8px 15px;
+    
+    border-radius: 40px;
+    width: 120px;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: #828282;
+    margin-right: 20px;
+}
+
+.rodape ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.rodape hr{
+    width: 250px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.rodape h3{
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer{
+    background-color: #1d1d1d;
+    padding: 100px;
+}
+
+
+.flexrodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+    padding: 0;
 }
