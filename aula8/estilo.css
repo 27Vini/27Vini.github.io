@@ -80,6 +80,11 @@ section,box,nav,ul{
     nav{
         display: none;
     }
+
+
+    header svg{
+        margin-right: 10px;
+    }
 }
 
 

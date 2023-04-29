@@ -1,21 +1,30 @@
-        body{
+        *{
             box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
         }
         
-        @media(min-width:769px){
-
         span{
             color: rgb(124, 0, 183);
         }
-
 
         body{
             background-color:rgb(0, 27, 39);
             margin: 0;
             color: white;
         }
+
+        .fonte-preta{
+            color: black;
+        }
+        
+
+        .hamb{
+            visibility: hidden;
+        }
+
+
+       
         
         main{
             background-color: white;
@@ -44,9 +53,7 @@
             background-color: rgb(204,236,255);
         }
 
-        .fonte-preta{
-            color: black;
-        }
+      
 
         .menu a{
             text-decoration: none;
@@ -153,7 +160,91 @@
             margin: 0;
             
         }
+    
+
+
+    @media (min-width:577px) and (max-width:768px){
+
+        main,header,footer{
+            width: 100%;
+            margin: 0;
+        }
+
+        header h1{
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        .menu{
+            width: 430px;
+            margin: 0;
+            margin-left: 5px;
+            margin-right: 30px;
+        }
+       
+        .portfolio{
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .box:last-child{
+            width: 100%;
+        }
+
+       
+
     }
 
 
-    
+    @media (max-width:576px){
+        main,header,footer{
+            width: 100%;
+            margin: 0;
+        }
+        header h1{
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        .menu{
+          display: none;
+        }
+
+        .portfolio{
+            flex-wrap: wrap;
+           
+        }
+        .box{
+            width: 100%;
+        }
+
+        .banner{
+            position: relative;
+        }
+        .banner h2{
+            font-size: 2em;
+        }
+
+        .banner small{
+            font-size: 1em;
+        }
+        .banner article{
+            top:20%;
+            left: 10%;
+        }
+
+
+        .motivacao{
+            flex-wrap: wrap;
+        }
+
+        .col-1{
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        .hamb{
+            margin-right: 10px;
+            visibility: visible;
+        }
+    }
