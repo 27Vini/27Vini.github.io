@@ -20,7 +20,7 @@
         
 
         .hamb{
-            visibility: hidden;
+            display: none;
         }
 
 
@@ -245,6 +245,6 @@
 
         .hamb{
             margin-right: 10px;
-            visibility: visible;
+            display: flex;
         }
     }
