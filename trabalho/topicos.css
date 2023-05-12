@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+body{
+    background-color: #979797;
+
+}
+
+main,header,footer{
+    width: 860px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-color: #408535;
+}
+
+header img{
+    width: 200px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+
+.nav a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.nav li{
+    margin-left: 40px;
+    margin-top: 55px;
+}
+
+.nav a{
+    margin: 0 18px;
+}
+
+
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 760px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.vertical h2{
+    font-weight: lighter;
+    margin-top: 35px;
+}
+
+.vertical hr{
+    margin-top: 15px;
+    width: 35px;
+}
+
+.vertical p{
+    text-align: left;
+    margin: 50px 80px;
+    font-size: 20px;
+}
+
+.fundo-cinza{
+    margin: 0;
+    background-color: #c7c7c7;
+}
+
+.fundo-branco{
+    background-color: white;
+    margin: 0;
+}
+
+
+.alinha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+.alinha img{
+    margin: 40px 20px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.alinha p{
+    margin: 40px;
+}
+
+.direita p{
+    text-align: right;
+}
+
+.esquerda p{
+    text-align: left;
+}
+
+footer{
+    background-color: #d9d9d9;
+    margin-bottom: 20px;
+    padding: 60px;
+}
+
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+.horizontal svg{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer p{
+    margin-top: 12px;
+    text-align: center;
+}
