@@ -7,6 +7,10 @@
 
   @import url('https://fonts.cdnfonts.com/css/averia-gruesa-libre');
 
+
+  .hamb{
+    display: none;
+  }
                 
 
 
@@ -222,4 +226,80 @@ footer{
 footer p{
     margin-top: 12px;
     text-align: center;
+}
+
+
+
+@media (max-width:576px){
+    main,header,footer{
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    header img{
+        width: 100%;
+        
+    }
+
+    .portfolio{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        align-items: center;
+        margin-bottom: 25px;
+        border: #d9d9d9 5px solid;
+        border-radius: 5px;
+        padding: 5px;
+        height: 250px;
+    }
+
+    .box img{
+        margin: 0 auto;
+    }
+
+    .box p{
+        font-size: 1em;
+        margin-top: 15px;
+    }
+
+
+    .box button{
+        transform: translateX(0);
+        margin-top: 15px;
+    }
+
+    .container{
+        width: 300px;
+    }
+
+    .segundo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .saibamais button{
+        transform: translateX(0);
+        background-color: #06ac00;
+        border-radius: 10px;
+    }
+
+    .hamb{
+        display: flex;
+        position: fixed;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
+    
 }

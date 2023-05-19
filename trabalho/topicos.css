@@ -15,6 +15,9 @@ main,header,footer{
     margin: 0 auto;
 }
 
+.hamb{
+    display: none;
+}
 
 header{
     background-color: #408535;
@@ -139,4 +142,50 @@ footer{
 footer p{
     margin-top: 12px;
     text-align: center;
+}
+
+
+@media (max-width:576px){
+    main,header,footer{
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    header img{
+        width: 100%;
+        
+    }
+
+
+    .vertical{
+        width: 100%;
+    }
+
+    .vertical p{
+        font-size: 1em;
+    }
+
+    .alinha{
+        width: 100%;
+    }
+
+    .alinha img{
+        width: 245px;
+        border-radius: 15px;
+    }
+
+    .hamb{
+        display: flex;
+        position: fixed;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
+    .alinha p{
+        font-size: 0.8em;
+    }
 }
