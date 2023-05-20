@@ -54,7 +54,12 @@ const descricaoOpinioes = opinioes => {
     return descs;
 }
 
+
+
 window.onload = function(){
+    
+
+
     for(obj of objFilmes){
        section.innerHTML += `<article class="card" id="cardFilme">
                 <img src="${(obj.figura)}" class="capa" />
