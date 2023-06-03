@@ -1,0 +1,12 @@
+.jumbotron{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/965/883/624/manga-one-piece-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.media{
+    border: solid 1px #aaa;
+    border-radius: 5px;
+}

@@ -1,0 +1,20 @@
+$(function(){
+    $("#ocultar").click(function(){
+        $("p").fadeOut("slow");
+    })
+    $("#exibir").click(function(){
+        $("p").fadeIn("slow");
+    })
+    $("#alternar").dblclick(function(){
+        $("p").fadeToggle("slow");
+    })
+
+    $("p").on({
+        mouseenter:function(){
+            $(this).css("background-color","yellow")
+        },
+        mouseleave:function(){
+            $(this).css("background-color","blue")
+        }
+    })
+})
