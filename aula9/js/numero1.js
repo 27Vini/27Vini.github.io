@@ -16,6 +16,7 @@ const soma= (a,b)=> a+b;
 
 
 botao1.onclick = function(){
+    
     const num1= lerNumero('#ex01-num01');
     console.log(num1)
     const num2 = lerNumero('#ex01-num02');
