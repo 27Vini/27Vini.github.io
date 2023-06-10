@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Mexico Turistico</title>
+    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./primeirapag.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         @import url('https://fonts.cdnfonts.com/css/averia-gruesa-libre');
         </style>
 </head>
 <body>
     <header>
-        <div class="hamb">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-           </svg>
-         </div>
         <img src="./figma/México-800x533.jpg" alt="">
-        <ul class="nav">
-            <li><button><a href="./culinaria.html">Culinaria</a></button></li>
-            <li><button><a href="./arte.html">Arte</a></button></li>
-            <li><button><a href="./esporte.html">Esporte</a></button></li>
-            <li><button><a href="./turismo.html">Turismo</a></button></li>
+        <ul class="nav menu">
+            <li><a class="menuItem" href="./culinaria.html">Culinaria</a></li>
+            <li><a class="menuItem" href="./arte.html">Arte</a></li>
+            <li><a class="menuItem" href="./esporte.html">Esporte</a></li>
+            <li><a class="menuItem" href="./turismo.html">Turismo</a></li>
         </ul>
-       
+        <div class="hamb">
+        <button class="hamburger">
+            <i class="menuIcon material-icons">menu</i>
+          </button>
+        </div>
     </header>
 
     <main>
@@ -96,6 +97,7 @@
     </footer>
 </body>
 <head>
+    <script src="./menu.js"></script>
     <script src="./primeirapag.js"></script>
 </head>
 </html>
