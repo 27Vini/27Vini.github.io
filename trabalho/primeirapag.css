@@ -255,7 +255,9 @@ a:link {
     all: unset;
 }
 
-
+small{
+    display: none;
+}
 .menuItem{
     color: white;
 }
