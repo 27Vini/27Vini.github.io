@@ -147,6 +147,10 @@ footer p{
 }
 
 
+.horizontal p{
+    display: none;
+}
+
 @media (max-width:576px){
     main,header,footer{
         width: 100%;
