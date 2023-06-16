@@ -16,7 +16,9 @@
     display: none;
   }
                 
-
+.horizontal p{
+    display: none;
+}
 
 body{
     background-color: #979797;
@@ -71,7 +73,8 @@ main{
     padding: 10px;
 }
 
-main h2{
+main h1{
+    font-weight: lighter;
     text-align: center;
     padding-top: 15px;
 }
@@ -184,7 +187,7 @@ section h2{
 }
 
 
-h2{
+h2,h1{
     margin-bottom: 30px;
     font-family: 'Averia Gruesa Libre', sans-serif;
                                                 
@@ -233,7 +236,33 @@ footer p{
     text-align: center;
 }
 
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+ a:hover{
+     cursor: pointer;
+ }
 
+  a {
+    all: unset;
+}
+
+
+.menuItem{
+    color: white;
+}
+
+.menuItem:hover{
+    color: black;
+    border: 2px #d9d9d9 solid;
+    border-radius: 5px;
+    padding: 2px;
+}
 
 @media (max-width:576px){
     main,header,footer{
@@ -350,7 +379,12 @@ footer p{
         color: white;
       }
       
-
+      .menuItem:hover{
+        color: white;
+        border: 2px #d9d9d9 solid;
+        border-radius: 5px;
+        padding: 2px;
+    }
 
 
 

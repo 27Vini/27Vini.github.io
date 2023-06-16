@@ -151,9 +151,32 @@ footer p{
     display: none;
 }
 
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+ a:hover{
+     cursor: pointer;
+ }
+
+  a {
+    all: unset;
+}
+
+
+.menuItem{
+    color: white;
+}
 
 .menuItem:hover{
-    color: #979797;
+    color: black;
+    border: 2px #d9d9d9 solid;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 @media (max-width:576px){
@@ -249,4 +272,11 @@ footer p{
         color: white;
       }
       
+
+      .menuItem:hover{
+        color: white;
+        border: 2px #d9d9d9 solid;
+        border-radius: 5px;
+        padding: 2px;
+    }
 }
