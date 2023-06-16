@@ -151,6 +151,11 @@ footer p{
     display: none;
 }
 
+
+.menuItem:hover{
+    color: #979797;
+}
+
 @media (max-width:576px){
     main,header,footer{
         width: 100%;
