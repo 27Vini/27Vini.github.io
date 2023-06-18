@@ -391,6 +391,8 @@ small{
         padding: 2px;
     }
 
-
+    .control{
+        display: none;
+    }
 
 }
